@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+	.ex{
+   
+       min-height:100%;
+  background:url("family.jpg") rgb(0,191,255);
+  width:100%;
+  background-size:cover;
+  background-blend-mode: multiply;
+font-family: "Lucida Sans", sans-serif;
+		}
+    * {
+  box-sizing: border-box;
+}
+
+img{
+  background-position: center;
+  width:150px;
+  height: 100px;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  font-family: "Lucida Sans", sans-serif;
+  align-items: flex-end;
+
+  transition: 0.3s;
+  margin:auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+   background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 200px;
+  height: 320px;
+  border-radius:5px;
+  margin-right: 650px;
+
+}
+
+.button {
+  font-family: "Lucida Sans", sans-serif;
+  background-color: rgb(0,191,255); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 12px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+  font-family: "Lucida Sans", sans-serif;
+  background-color: white; 
+  text-align: center;
+  color: rgb(0,191,255); 
+  border: 2px solid rgb(0,191,255);
+  border-radius: 12px;
+  width: 130px;
+  height: 45px;
+}
+
+.button2:hover {
+  font-family: "Lucida Sans", sans-serif;
+  background-color: rgb(0,191,255);
+  color: white;
+  border-radius: 12px;
+  width: 130px;
+  height: 45px;
+}
+
+.ex2{
+  margin-top: -150px;
+}
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  
+  .card {
+    width: 100%;
+    margin-bottom: 150px;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .navbar, .card {
+    width: 100%;
+        margin-bottom: 150px;
+  }
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+ <div class="ex">
+	<nav class="navbar navbar-light bg-light" >
+
+  <div class="container-fluid">
+    <div class="navbar-header" >
+      <a class="navbar-brand" href="#" style=" color: white;">INTERNET<br>COMPANY</a>
+    </div>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"style="color: white;">HOME</a></li>
+      <li><a href="a2.html"style="color: white;text-decoration:underline; ">PRICING</a></li>
+      <li><a href="#"style="color: white;">CONTACT</a></li>
+    </ul>
+  </div>
+</nav>
+<br><br><br><br><br><br><br><br><br>
+</div>
+</br>
+</br>
+</br>
+<div class="container">
+<div class="row">
+
+  <div class="column">
+<div class="ex2">
+    <div class="card">
+      <h3 style="color: rgb(0,191,255);">BEGINNER</h3>
+      <img src="car.jpeg">
+      <p>$ 19,95</p>
+      <p>50 / 5 Mbit/s</p>
+      <p><button class="button button2">Read More</button></p>
+    </div>
+  </div>
+</div>
+
+  <div class="column">
+     <div class="ex2"> 
+    <div class="card">
+      <h3 style="color: rgb(0,191,255);">STANDARD</h3>
+       <img src="car.jpeg">
+      <p>$ 24,95</p>
+      <p>150 / 15 Mbit/s</p>
+     <p><button class="button button2">Read More</button></p>
+    </div>
+  </div>
+  </div>
+  <div class="column"> 
+    <div class="ex2">
+    <div class="card">
+       <h3 style="color: rgb(0,191,255);">PREMIUM</h3>
+      <img src="car.jpeg">
+      <p>$ 29,95</p>
+      <p>350 / 35 Mbit/s</p>
+       <p><button class="button button2">Read More</button></p>
+  </div>
+  </div>
+  </div>
+  <div class="column"> 
+    <div class="ex2">
+    <div class="card" >
+     <h3 style="color: rgb(0,191,255);">ELITE</h3>
+      <img src="car.jpeg">
+      <p>$ 39,95</p>
+      <p>500 / 50 Mbit/s</p>
+      <p><button class="button button2">Read More</button></p>
+    </div>
+  </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<style>
+  .container{
+    width:50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+  }
+
+  .card{
+  border-top-left-radius: 7px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 8px;
+}
+</style>
+
+</body>
+</html>
